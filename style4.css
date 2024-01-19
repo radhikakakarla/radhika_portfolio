@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.scrollbar{
+    height: 100%;
+    width: px;
+    border-width: 1px;
+    font-family: sans-serif;
+    overflow: auto;
+
+}
+
+.main{
+    width: 100%;
+    background: url(portf.png);
+    background-position: center;
+    background-size:cover;
+    height: 125vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .loggo{
+     width: 150px;
+     cursor: pointer;
+     margin-top: -1%;
+     margin-left: -1%;
+
+
+}
+ul{
+    margin-top: -1%;
+}
+
+ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(227, 146, 203);
+}
+
+.mine{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.mine h1{
+    font-size: 65px;
+    color: rgb(253, 253, 253);
+}
+
+.mine h3{
+    font-size: 14px;
+    color: #fef9f9;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.mine span{
+    color: rgb(200, 17, 17);
+}
+
+.mine a{
+    text-decoration: none;
+    font-size: small ;
+    color: #030303;
+    background: rgb(236, 236, 235);
+    margin: 26px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.mine a:hover{
+    background: rgb(237, 3, 3);
+}
+
+.Me{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: 300px;
+    bottom: 0%;
+}
+
+.Me img{
+    position: absolute;
+    height: 60%;
+    left: 60%;
+    bottom: 50%;
+}
+
+
+.footercontainer{
+    width: 200px;
+    padding: 150px 150px 150px;
+    
+}
+.social{
+    position: absolute;
+    right:500px;
+    display: contents;
+    width: 50px;
+}
+.social a{
+    text-decoration: none;
+    color: #ec0101;
+    padding: 10px 16px;
+}
+.social i{
+    color: #f2eaea;
+    font-size: 40px;
+    transition: .4s ease;
+    align-items: center;
+    left: 50%;
+}
+.social i:hover{
+    color: maroon;
+}
